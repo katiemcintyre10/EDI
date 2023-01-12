@@ -3,7 +3,7 @@ function preload() {
   gif = loadImage ('Assets/OfficialSnowFlakeBETTER.gif');
 }
 function setup() { //runs once
-createCanvas(720, 720); //creates canvas 720 pixels by 720 pixels
+createCanvas(windowWidth, windowWidth); //creates canvas 720 pixels by 720 pixels
 background(255, 255, 0); //background color
 }
 
@@ -15,7 +15,7 @@ var sideLen = windowWidth/num;
 
 for(var y = 0; y < 2*windowHeight; y += sideLen){
   for(var x = 0; x < 2*windowWidth; x += sideLen) {
-    image(gif, x, y, windowWidth/num, windowWith/num);
+    image(gif, x, y, windowWidth/num, windowWidth/num);
   }
 }
 function windowResized(){

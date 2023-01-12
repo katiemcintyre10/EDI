@@ -3,7 +3,7 @@ function preload() {
   gif = loadImage ('Assets/OfficialSnowFlakeBETTER.gif');
 }
 function setup() { //runs once
-createCanvas(720, 720); //creates canvas 720 pixels by 720 pixels
+createCanvas(windowWidth, windowWidth); //creates canvas 720 pixels by 720 pixels
 background(255, 255, 0); //background color
 }
 

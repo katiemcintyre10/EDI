@@ -1,6 +1,6 @@
 let gif;
 function preload() {
-  gif = loadImage ('../Assets/OfficialSnowFlakeBETTER.gif');
+  gif = loadImage ('Assets/OfficialSnowFlakeBETTER.gif');
 }
 function setup() { //runs once
 createCanvas(windowWidth, windowWidth); //creates canvas 720 pixels by 720 pixels
